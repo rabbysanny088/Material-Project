@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.css-1f2xuhi-MuiDrawer-docked .MuiDrawer-paper {
+  background-color: rgb(239 239 239 / 28%);
+  padding: 6px;
+}
+
+.css-10hburv-MuiTypography-root {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.css-1m5i5w0-MuiButtonBase-root-MuiListItemButton-root:hover {
+  background-color: rgba(0, 0, 0, 0.04);
+  border-radius: 10px;
+}
+
+.selected::after {
+  content: "";
+  border-radius: 10px;
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  left: 2px;
+  bottom: 2px;
+  opacity: 0.1;
+  background-color: #4680ff;
+  transition: 0.3s ease-in-out;
+}
+
+.change {
+  transition: 0.1s ease-in-out;
+  padding: 10px;
+}
+.change:hover {
+  background-color: #d5d5d5a6;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.apexcharts-toolbar {
+  display: none;
+}
+
+.add {
+  background-color: black;
+}
+
+.al {
+  width: 40px;
+  height: 40px;
+  font-size: 14px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+
+.md {
+  background: #edf2ff;
+  color: #4680ff;
+  width: 40px;
+  height: 40px;
+  font-size: 14px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.oc {
+  background: #fcf3e6;
+  color: #e58a00;
+  width: 40px;
+  height: 40px;
+  font-size: 14px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.view {
+  font-size: 14px;
+  background: #fff;
+  border: 0;
+  border: 1px solid #e7e7e7;
+  padding: 10px;
+  border-radius: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.create {
+  font-size: 14px;
+  background: blue;
+  border: 0;
+  /* border: 1px solid #e7e7e7; */
+  padding: 10px;
+  border-radius: 13px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.apexcharts-legend.apx-legend-position-right {
+  display: none;
+}
+
+.value {
+  background: #edf2ff;
+  color: #4680ff;
+  padding: 5px;
+  border: rgb(70, 128, 255);
+  opacity: 1;
+  width: 61px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+}
+.values {
+  background: #eaf6f2;
+  color: #2ca87f;
+  padding: 5px;
+  border: rgb(70, 128, 255);
+  opacity: 1;
+  width: 61px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+}
+.valued {
+  background: #fcf3e6;
+  color: #e58a00;
+  padding: 5px;
+  border: rgb(70, 128, 255);
+  opacity: 1;
+  width: 61px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+}
+.valuess {
+  background: #fce9e9;
+  color: #dc2626;
+  padding: 5px;
+  border: rgb(70, 128, 255);
+  opacity: 1;
+  width: 61px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3px;
+}
+
+.box {
+  background: rgb(220, 38, 38);
+  color: rgb(255, 255, 255);
+  width: 54px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+.boxs {
+  background: rgb(44, 168, 127);
+  color: rgb(255, 255, 255);
+  width: 54px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+.g {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: 600;
+  width: 48px;
+  background: #fce9e9;
+  color: #dc2626;
+  height: 48px;
+}
+
+.popular {
+  color: #fff;
+  font-weight: 400;
+  background: rgb(44, 168, 127);
+  width: 62px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.para {
+  width: 30%;
+  margin-top: 7px;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+
+@media (max-width: 992px) {
+  .social {
+    display: flex;
+    flex-direction: column;
+  }
+}
